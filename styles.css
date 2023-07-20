@@ -9,13 +9,15 @@ body {
     color: #e5e7eb ; 
     font-family: sans-serif;
 }
+
 .header {
     background-color: #1f2937;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 20px;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logotitulo {
@@ -26,11 +28,14 @@ align-items: center;
     width: 100%;
     max-width: 100px;
     margin:0;
+    padding: 10px;
+    
 }
 h1 {
     display: inline-block;
     margin: 0;
     font-size: 24px;
+    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -38,23 +43,93 @@ a {
 }
 .navbar {
     list-style-type: none;
-    margin: 10px auto;
-    padding: 0;
+    margin: 0 auto;
+    padding: 10px;
 }
 .navbar li {
     display: inline-block;
     margin-right: 15px ;
     font-size: 20px;
 }
-h2 {
-    margin: 0;
-}
 .photoGallery {
     background-color: #1f2937;
     width: 80%;
     margin:  0 auto;
+    padding: 0 30px 30px;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text {
+    margin-left: 50px;
 }
 .orangeCat {
-    margin: 10px auto;
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
+.catList {
+    background-color: #f9faf8;
+    color: #1f2937;
+    width: 80%;
+    margin:  0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.h2catList {
+    width: 80%;
+    text-align: center;
+    color: #1f2937;
+    background-color: #f9faf8;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.photoList {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+fieldset {
+    display: inline-block;
+}
+.catForm {
+    background-color: #E5e7eb;
+    color: #1f2937;
+    width: 80%;
+    margin:  0 auto;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around; 
+
+}
+li {
+    font-family: sans-serif;
+}
+.h2CatForm{
+    background-color: #E5e7eb;
+    color: #1f2937;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+footer {
+    background-color: #3882f6;
+    color: #E5e7eb;
+    width: 80%;
+    margin:  0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottonGallery, button {
+    background-color: #3882f6;
+    padding: 5px;
+    border-radius: 5px;
+    color: #f9faf8
 }

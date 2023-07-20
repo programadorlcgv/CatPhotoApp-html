@@ -15,44 +15,49 @@
     <nav>
         <ul Class="navbar">
             <li ><a href="#photoGallery">Cat Photos</a></li>
-            <li ><a href="#catLis">Cat Lists</a></li>
+            <li ><a href="#catList">Cat Lists</a></li>
             <li ><a href="#catForm">Cat Form</a></li>
         </ul>
     </nav>
   </header>
     <main>
       <section class="photoGallery" id="photoGallery">
-        <h2>Cat Photos</h2>
-          <!-- TODO: Add link to cat photos -->
-        <p>See more <a target="_blank" href="GalleryPhotosFlexbox/Photogallery.html">cat photos</a> in our gallery.</p>
-        <a href="GalleryPhotosFlexbox/Photogallery.html"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" class="orangeCat" alt="A cute orange cat lying on its back."></a>
-        <a href="GalleryPhotosFlexbox/Photogallery.htm">Photos Gallery</a>
+        <div class="text">
+          <h2>Cat Photos</h2>
+        <p>See more cat photos in our gallery.</p>
+        <a href="GalleryPhotos/Photogallery.html" class="bottonGallery">Photos Gallery</a>
+        </div>
+        <a href="GalleryPhotos/Photogallery.html"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" class="orangeCat" alt="A cute orange cat lying on its back."></a>
       </section>
-      <section class="catList" id="catLis">
-        <h2>Cat Lists</h2>
-         <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
-        </figure>
+      <h2 Class="h2catList">Cat Lists</h2>  
+      <section class="catList" id="catList">    
+        <div class="catsLove">
+          <h3>Things cats love:</h3>
+          <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+          </ul>
+          <figure>
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate." class="photoList">
+            <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+          </figure>
+        </div>
+        <div class="catsHate">
+          <h3>Top 3 things cats hate:</h3>
+          <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ol>
+          <figure>
+              <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field." class="photoList">
+            <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+          </figure>
+        </div>
         </section>
+        <h2 class="h2CatForm">Cat Form</h2>
         <section class="catForm" id="catForm">
-          <h2>Cat Form</h2>
           <form action="https://freecatphotoapp.com/submit-cat-photo">
             <fieldset>
               <legend>Is your cat an indoor or outdoor cat?</legend>
